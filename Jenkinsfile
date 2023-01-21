@@ -6,8 +6,8 @@ pipeline
         stage('ContinuousDownload')
         {
             steps 
-            {
-                git 'https://github.com/intelliqittrainings/maven.git'
+           {
+                git 'https://github.com/sreeshanmukha/jenkinspractice.git'
             }
         }
             
